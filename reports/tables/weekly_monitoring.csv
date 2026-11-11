@@ -1,0 +1,4 @@
+week,max_feature_psi,max_psi_feature,score_psi,fraud_recall,missed_fraud_dollars,top_missed_category,missed_dollars_top_category
+1,0.0729,online_share_card,0.0397,0.9077,3115.52,online_retail,1087.52
+2,0.0752,online_share_card,0.0408,0.7296,56342.88,crypto_exchange,55757.54
+3,0.082,online_share_card,0.0504,0.6852,52345.71,crypto_exchange,51687.56

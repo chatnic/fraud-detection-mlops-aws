@@ -1,0 +1,3 @@
+# Only needed to define/run the SageMaker pipeline and deployment from your machine.
+sagemaker>=2.200,<3
+boto3>=1.34

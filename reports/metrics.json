@@ -1,0 +1,87 @@
+{
+  "split_days": {
+    "train": [
+      0,
+      55
+    ],
+    "validation": [
+      56,
+      68
+    ],
+    "test": [
+      69,
+      89
+    ]
+  },
+  "fraud_rate": 0.00343273581701866,
+  "alert_capacity": 0.005,
+  "rules": {
+    "transactions": 152173,
+    "alerts": 2158,
+    "alert_rate": 0.014181227944510525,
+    "precision": 0.11306765523632993,
+    "recall": 0.5281385281385281,
+    "fraud_dollars_total": 254483.81999999998,
+    "fraud_dollars_caught": 233350.24999999997,
+    "dollar_recall": 0.9169551525908405,
+    "review_cost": 8632.0,
+    "net_savings": 224718.24999999997,
+    "pr_auc": NaN
+  },
+  "model_same_alert_volume_as_rules": {
+    "transactions": 152173,
+    "alerts": 2158,
+    "alert_rate": 0.014181227944510525,
+    "precision": 0.20435588507877664,
+    "recall": 0.9545454545454546,
+    "fraud_dollars_total": 254483.81999999998,
+    "fraud_dollars_caught": 226724.28000000003,
+    "dollar_recall": 0.890918251698674,
+    "review_cost": 8632.0,
+    "net_savings": 218092.28000000003,
+    "pr_auc": 0.8524083152775889
+  },
+  "model_at_capacity": {
+    "transactions": 152173,
+    "alerts": 511,
+    "alert_rate": 0.0033580201481208886,
+    "precision": 0.7181996086105675,
+    "recall": 0.7943722943722944,
+    "fraud_dollars_total": 254483.81999999998,
+    "fraud_dollars_caught": 142679.71000000002,
+    "dollar_recall": 0.5606631887245328,
+    "review_cost": 2044.0,
+    "net_savings": 140635.71000000002,
+    "pr_auc": 0.8524083152775889
+  },
+  "recall_by_type_test": {
+    "account_takeover": 0.882,
+    "card_testing": 0.939,
+    "crypto_cashout": 0.0,
+    "stolen_card": 0.918
+  },
+  "retraining": {
+    "evaluated_on_days": [
+      83,
+      89
+    ],
+    "recall_before": 0.6851851851851852,
+    "recall_after": 0.9907407407407407,
+    "dollar_recall_before": 0.4164171139031984,
+    "dollar_recall_after": 0.997223545502515,
+    "crypto_recall_before": 0.0,
+    "crypto_recall_after": 1.0,
+    "by_type_before": {
+      "account_takeover": 0.938,
+      "card_testing": 0.972,
+      "crypto_cashout": 0.0,
+      "stolen_card": 0.889
+    },
+    "by_type_after": {
+      "account_takeover": 1.0,
+      "card_testing": 1.0,
+      "crypto_cashout": 1.0,
+      "stolen_card": 0.963
+    }
+  }
+}
