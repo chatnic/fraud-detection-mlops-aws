@@ -36,7 +36,7 @@ In test week 2, fraudsters start cashing out through crypto exchanges, a pattern
 | 2 | 0.08 | 0.04 | **73%** | **$56.3K** | **crypto exchange** |
 | 3 | 0.08 | 0.05 | **69%** | **$52.3K** | **crypto exchange** |
 
-- **Input-drift monitors (PSI) never fired.** Crypto cash-outs are about 0.05% of traffic, far too small to shift any feature's overall distribution.
+- **Input-drift monitors (PSI) never fired.** Crypto cash-outs are under 0.1% of traffic, far too small to shift any feature's overall distribution.
 - **Outcome monitoring caught it.** Joining confirmed fraud (chargebacks) back to scored transactions showed recall dropping and missed dollars concentrated in a single merchant category within a week.
 - **Retraining with one week of new labels fixed it.** On the final week, crypto cash-out recall went from **0% to 100%** (29 transactions, a small sample) and overall fraud-dollar recall from **42% to 99.7%**.
 
